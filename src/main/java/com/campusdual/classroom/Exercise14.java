@@ -11,8 +11,5 @@ public class Exercise14 {
         po.getDetails();
         Doctor d = new Doctor("Gregory", "House", "Nefrología e Infectología");
         d.getDetails();
-
-
     }
-
 }
