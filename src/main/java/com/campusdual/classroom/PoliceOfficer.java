@@ -2,10 +2,17 @@ package com.campusdual.classroom;
 
 public class PoliceOfficer extends Person {
 
-	protected String squad;
+    protected String squad;
 
-	public PoliceOfficer(String name, String surname, String squad) {
-		super(name, surname);
-		this.squad = squad;
-	}
+    public PoliceOfficer(String name, String surname, String squad) {
+        super(name, surname);
+        this.squad = squad;
+    }
+
+
+    @Override
+    public void getDetails() {
+        super.getDetails();
+        System.out.println("Su squad es: " + this.squad + "\n");
+    }
 }
